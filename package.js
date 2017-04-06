@@ -1,8 +1,8 @@
 Package.describe({
   "summary": "Performance Monitoring for Meteor",
   "version": "2.30.2",
-  "git": "https://github.com/meteorhacks/kadira.git",
-  "name": "meteorhacks:kadira"
+  "git": "https://github.com/meteor/meteor-apm-agent.git",
+  "name": "mdg:meteor-apm-agent"
 });
 
 var npmModules = {
