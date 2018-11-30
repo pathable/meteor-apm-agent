@@ -88,14 +88,23 @@ Package.on_test(function(api) {
 function configurePackage(api) {
   if(api.versionsFrom) {
     api.versionsFrom('METEOR@1.2');
-    api.use('meteorhacks:meteorx@1.4.1', ['server']);
     api.use('meteorhacks:zones@1.2.1', {weak: true});
   }
 
   api.use([
-    'minimongo', 'livedata', 'mongo-livedata', 'ejson', 'ddp-common',
-    'underscore', 'http', 'email', 'random'
+    'ecmascript',
+    'mongo',
+    'minimongo',
+    'livedata',
+    'mongo-livedata',
+    'ejson',
+    'ddp-common',
+    'underscore',
+    'http',
+    'email',
+    'random',
   ], ['server']);
+
   api.use(['underscore', 'random', 'http', 'localstorage'], ['client']);
 
   // common before
