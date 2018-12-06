@@ -1,5 +1,14 @@
 # Changelog
 
+### v3.2.0
+
+* Remove dependency on `meteorhacks:meteorx`.
+  [PR #7](https://github.com/meteor/meteor-apm-agent/pull/7)
+
+* Use the Meteor core `ecmascript` package.
+
+* Update `api.versionFrom` to Meteor 1.7.
+
 ### v3.1.1
 
 * Use `Object.create(null)` rather than object initializer notation when

@@ -1,6 +1,6 @@
 Package.describe({
   "summary": "Performance Monitoring for Meteor",
-  "version": "3.1.2",
+  "version": "3.2.0-rc.0",
   "git": "https://github.com/meteor/meteor-apm-agent.git",
   "name": "mdg:meteor-apm-agent"
 });
@@ -86,8 +86,8 @@ Package.on_test(function(api) {
 });
 
 function configurePackage(api) {
-  if(api.versionsFrom) {
-    api.versionsFrom('METEOR@1.2');
+  if (api.versionsFrom) {
+    api.versionsFrom('METEOR@1.7');
     api.use('meteorhacks:zones@1.2.1', {weak: true});
   }
 
