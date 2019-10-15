@@ -1,6 +1,6 @@
 # Changelog
 
-### v3.2.5
+### v3.2.4
 
 * Fix log `[object Object]` issue. See [meteor#10078](https://github.com/meteor/meteor/issues/10078).Thx @zodern.
 
